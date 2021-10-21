@@ -2,6 +2,7 @@ from typing import Optional, List
 from pydantic import BaseModel
 
 
+
 class ZScore(BaseModel):
     year: int
     ebit: float
