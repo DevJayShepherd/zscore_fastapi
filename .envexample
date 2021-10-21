@@ -1,0 +1,8 @@
+# Create a file .env and fill with details below to connect.
+
+# Database
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_SERVER=
+POSTGRES_PORT=
+POSTGRES_DB=
