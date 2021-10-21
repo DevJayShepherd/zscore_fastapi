@@ -6,6 +6,9 @@ from api.db.base_class import Base
 from api.base import api_router
 
 
+app = FastAPI(title=settings.TITLE, version=settings.VERSION)
+
+
 def create_tables():
     Base.metadata.create_all(bind=engine)
 
