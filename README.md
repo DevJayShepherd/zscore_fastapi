@@ -10,7 +10,7 @@ This is a barebones API providing 1 endpoint to caluclate your zscore, built usi
 4. $ make run
 5. Go to 127.0.0.1/docs
 
-IMPORTANT: Database connection has been setup and can be connected via the .env file however, no interaction with database is required yet.
+IMPORTANT: CHECK .ENVEXAMPLE and CREATE .env IN ROOT with your db credentials (POSTGRES)
 
 # Interact with API
 You will be presented with 1 PUT endpoint - /calculate/get_zscore
@@ -36,7 +36,6 @@ You will get a response containing the data.
 # Still to do - i.e branches and PR's
 1. Setup logging, sentry, newrelic
 2. Setup alembic for migrations
-4. Create model to store every report generated
 5. Pylint/conf file for testing
 6. Dockerise in preparations for containers management, k8s
 
