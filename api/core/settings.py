@@ -9,7 +9,8 @@ load_dotenv(dotenv_path=env)
 
 class Settings:
     # Project meta
-    TITLE: str = "4sale"
+    TITLE: str = "zscore"
+
     VERSION: str = "0.1.1"
 
     # Database
